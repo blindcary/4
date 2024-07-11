@@ -15,8 +15,10 @@ while playagain:
 
     if player < 1 or player > 3:
         sys.exit("You must enter 1,2, or 3.")
-        
-    computerchoice = random.choice("123")
+    
+    #computerchoice = random.choice(['1','2','3'])    
+    #computerchoice = random.choice("123")
+    computerchoice = random.choice((1,2,3))
 
     computer = int(computerchoice)
 
