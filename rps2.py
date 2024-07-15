@@ -21,7 +21,7 @@ def computer_choice():
 def winner(player,computer):
     if(player==RPS.ROCK.value and computer==RPS.SCISSORS.value) or \
         (player==RPS.PAPER.value and computer==RPS.ROCK.value) or \
-            (player==RPS.SCISSORS.value and computer==RPS.PAPER.value):
+        (player==RPS.SCISSORS.value and computer==RPS.PAPER.value):
                 return "🎉You win!"
     elif player == computer:
         return "😲Tie"
